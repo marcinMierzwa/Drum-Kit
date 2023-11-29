@@ -6,6 +6,52 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="wrapper">
+      <h1>Virtual Drummer</h1>
+      <div class="drum-kit">
+        <div data-key="a" class="key clap">
+          <kbd>clap</kbd>
+          <span class="sound">press a</span>
+        </div>
+        <div data-key="s" class="key hihat">
+          <kbd>hihat</kbd>
+          <span class="sound">press s</span>
+        </div>
+        <div data-key="d" class="key kick">
+          <kbd>kick</kbd>
+          <span class="sound">press d</span>
+        </div>
+        <div data-key="f" class="key openhat">
+          <kbd>openhat</kbd>
+          <span class="sound">press f</span>
+        </div>
+        <div data-key="j" class="key low-tom">
+          <kbd>low tom</kbd>
+          <span class="sound">press j</span>
+        </div>
+        <div data-key="k" class="key ride">
+          <kbd>ride</kbd>
+          <span class="sound">press k</span>
+        </div>
+        <div data-key="l" class="key snare">
+          <kbd>snare</kbd>
+          <span class="sound">press l</span>
+        </div>
+        <div data-key=";" class="key tom">
+          <kbd>tom</kbd>
+          <span class="sound">press h</span>
+        </div>
+      </div>
+    </div>
+
+    <audio data-key="a" src="sounds/clap.wav"></audio>
+    <audio data-key="s" src="sounds/hihat.wav"></audio>
+    <audio data-key="d" src="sounds/kick.wav"></audio>
+    <audio data-key="f" src="sounds/openhat.wav"></audio>
+    <audio data-key="j" src="sounds/boom.wav"></audio>
+    <audio data-key="k" src="sounds/ride.wav"></audio>
+    <audio data-key="l" src="sounds/snare.wav"></audio>
+    <audio data-key="h" src="sounds/tom.wav"></audio>
     <script src="dist/index.js"></script>
   </body>
 </html>
