@@ -14,6 +14,15 @@ Users should be able to:
 
 # Link
 
-* <a class="d-inline-block mx-2" href="https://marcinmierzwa.github.io/Virtual-Drummer/">Dashboard</a
+* Live Site URL: <a class="d-inline-block mx-2" href="https://marcinmierzwa.github.io/Virtual-Drummer/">Dashboard
+</a>
+
+# Built with
+
+* HTML5
+* CSS3
+* TypeScript
+
+
         
 
