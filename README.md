@@ -14,5 +14,6 @@ Users should be able to:
 
 # Link
 
-* [Dashboard](#https://marcinmierzwa.github.io/Virtual-Drummer/)
+* <a class="d-inline-block mx-2" href="https://marcinmierzwa.github.io/Virtual-Drummer/">Dashboard</a
+        
 
